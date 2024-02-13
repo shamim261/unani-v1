@@ -1,13 +1,11 @@
-import MenuIcon from "@mui/icons-material/Menu";
+import MenuIcon from '@mui/icons-material/Menu';
+import kk from '../assets/images/kk.png';
+
 import React from "react";
-import image from "../assets/images/dark-leaf.jpeg";
-import kk from "../assets/images/kk.png";
-import ButtonOutlined from "../components/ButtonOutlined";
-import ButtonPrimary from "../components/ButtonPrimary";
 export default function Home() {
   return (
-    <div>
-      <div className="h-screen hero-section">
+      <div>
+          {/* <div className="h-screen hero-section">
         <div className="absolute bg-primary">
           <img
             className="opacity-30 h-screen object-cover "
@@ -35,7 +33,24 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div> */}
+          <div className="hero-section">
+              <div className="wrapper">
+                  <MenuIcon className="text-white  mt-2" />
+                  <div className="flex flex-col items-center justify-center">
+                      <img src={kk} className="h-[74vh] w-auto " />
+                  </div>
+                  <div className="bg-primary text-white ">
+                      <h1 className="font-bold text-4xl">
+                          Natural Solution <br /> For Healthy Life
+                      </h1>
+                      <p>
+                          Let's try our way to get your dream job, with offers from different
+                          countries and job positions, create opportunities for a better life
+                      </p>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
   );
 }
