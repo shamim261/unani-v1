@@ -1,3 +1,4 @@
+import MenuIcon from '@mui/icons-material/Menu';
 import left from '../assets/icon/arrow-left.png';
 import bag from '../assets/icon/bag.png';
 import handshake from '../assets/icon/handshake.png';
@@ -28,12 +29,14 @@ export default function Home() {
   return (
       <div>
         <div className="hero-section">
-              <div className='w-[80%] m-auto'>
+              <div className='w-[80%] m-auto hidden md:block'>
                   <Navbar />
               </div>
               <div className="flex flex-col md:flex-row-reverse">
                   <div className="wrapper ">
-                      {/* <MenuIcon className="text-white mt-2 " /> */}
+                      <div className='md:hidden'>
+                          <MenuIcon className="text-white mt-2  " />
+                      </div>
                       <div className="flex items-center justify-center">
                           
                           <img src={kk} className="h-[74vh] w-auto scale-x-[-1] " />
@@ -220,7 +223,7 @@ export default function Home() {
           </section>
           <section className='hidden md:block pt-20 pb-10'>
               <div className="wrapper">
-                  <div className='text-center w-2/3 flex flex-col justify-center items-center'>
+                  <div className='text-center flex flex-col justify-center items-center'>
                        <h1 className='text-6xl font-semibold font-rubik pb-4'>Our Team</h1>
                   <p className=' font-light py-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames urna, varius ultricies et in interdum. Id nascetur urna rhoncus.</p>
               </div>
