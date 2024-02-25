@@ -3,7 +3,7 @@ import left from '../assets/icon/arrow-left.png'
 
 export default function Pagination() {
   return (
-    <div className='wrapper flex justify-between !w-1/3 py-5 font-rubik '>
+    <div className='wrapper flex justify-between md:!w-1/3 py-5 font-rubik '>
       <div className='border px-2 py-1 border-black'>
         <img src={left} alt="" />
       </div>
@@ -17,6 +17,7 @@ export default function Pagination() {
       <div className='border px-2 py-1 border-black'>
         <img className='scale-x-[-1]' src={left} alt="" />
       </div>
+      
     </div>
   )
 }

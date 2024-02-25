@@ -5,7 +5,7 @@ export default function Card() {
   return (
     <div className='wrapper py-4'>
       
-        <img className=' ' src={card} alt="" />
+        <div className='flex justify-center items-center'><img className=' ' src={card} alt="" /></div>
       
       <div className=' py-8'>
         <h1 className='text-[24px] font-semibold py-4'>Tincidunt ac eu.</h1>

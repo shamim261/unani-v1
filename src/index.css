@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-    @apply w-[92%] mx-auto my-0 md:w-[70%];
+    @apply w-[92%] mx-auto my-0 md:w-[80%];
 }
 
 #bgSection {
