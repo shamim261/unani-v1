@@ -10,7 +10,7 @@ import logo from "../assets/images/Group 10.png";
 
 export default function Footer() {
   return (
-    <div className='md:bg-white'>
+    <div className='md:bg-white md:overflow-hidden'>
       <div className='hidden md:flex  py-20 flex-col justify-center items-center '>
         <div className='w-2/3 text-center'>
           <h1 className='text-6xl font-semibold font-rubik pb-4'>At ultricies parturient dolor 
@@ -68,7 +68,7 @@ Tristique.</p>
               <li className='py-2'>Our Team</li>
            </ul>
           </div>
-          <div className='py-5 md:ml-0 md:py-0'>
+          <div className='py-5 md:ml-0 md:py-0  '>
             <img src={logo} alt="" />
             <p className='py-6 w-4/5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sapien adipiscing platea sed mattis sit elementum mauris. Praesent.</p>
 
