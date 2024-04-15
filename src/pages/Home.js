@@ -1,4 +1,3 @@
-import MenuIcon from '@mui/icons-material/Menu';
 import bag from '../assets/icon/bag.png';
 import handshake from '../assets/icon/handshake.png';
 import list from '../assets/icon/list.png';
@@ -19,6 +18,7 @@ import ButtonOutlined from '../components/ButtonOutlined';
 import ButtonPrimary from '../components/ButtonPrimary';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
+import MobileSidebar from '../components/MobileSidebar';
 import Navbar from '../components/Navbar';
 import NewArrivalSection from '../components/NewArrivalSection';
 import Pagination from '../components/Pagination';
@@ -34,7 +34,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row-reverse">
                   <div className="wrapper ">
                       <div className='md:hidden'>
-                          <MenuIcon className="text-white mt-2  " />
+                          <MobileSidebar />
                       </div>
                       <div className="flex items-center justify-center">
                           

@@ -1,7 +1,7 @@
-import MenuIcon from '@mui/icons-material/Menu';
 import React from 'react';
 import aboutImg from "../assets/images/069b48732f5221aa32644d32f81d5575.jpeg";
 import Footer from '../components/Footer';
+import MobileSidebar from '../components/MobileSidebar';
 import Navbar from '../components/Navbar';
 import NewArrivalSection from '../components/NewArrivalSection';
 import ReviewSection from '../components/ReviewSection';
@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
         <div className='wrapper'>
           <div className='md:hidden'>
-                          <MenuIcon className="text-white mt-2" />
+                          <MobileSidebar />
           </div>
           <div className='flex justify-center items-center md:text-center'>
             <h1 className='font-rubik text-[48px] font-semibold w-3/4 py-6 md:pb-20 text-white'>Contact</h1>
