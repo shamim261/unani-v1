@@ -52,7 +52,7 @@ export default function Home() {
                               Let's try our way to get your dream job, with offers from different
                               countries and job positions, create opportunities for a better life
                           </p>
-                          <div className='flex items-center justify-around py-5'>
+                          <div className='flex items-center justify-around gap-3 py-5'>
                               <ButtonOutlined> Order Product</ButtonOutlined>
                               <ButtonPrimary> See Products </ButtonPrimary>
                           </div>
